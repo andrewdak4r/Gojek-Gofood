@@ -53,7 +53,7 @@ echo " ===========================\n";
         echo color("green","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
         echo color("red","\n===========(PROSES REDEEM VOUCHER)===========");
-        echo "\n".color("yellow","!] Claim GOFOODSANTUY19");
+        echo "\n".color("yellow","!] Claim GOFOODYUK");
         echo "\n".color("white","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -66,7 +66,7 @@ echo " ===========================\n";
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Claim GOFOODSANTUY11");
+        echo "\n".color("yellow","!] Claim PESENGOFOOD");
         echo "\n".color("white","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
